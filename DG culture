@@ -1,0 +1,23 @@
+var red = 255
+var green = 0
+var blue = 255
+
+function setup() {
+  createCanvas(400, 400);
+  frameRate(2) ;
+  
+}
+
+function draw() {
+  x = random (400)
+  y = random (400)
+  longueur = largeur = random(400)
+  red = random(255)
+  green = random(255)
+  blue = random(255)
+  background(red, green, blue);
+  ellipse(x, y, longueur, largeur)
+  ellipse(x, y, longueur, largeur)
+  ellipse(x, y, longueur, largeur)
+ 
+}
