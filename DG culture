@@ -4,7 +4,7 @@ var blue = 255
 
 function setup() {
   createCanvas(400, 400);
-  frameRate(2) ;
+  frameRate(10) ;
   
 }
 
@@ -19,5 +19,6 @@ function draw() {
   ellipse(x, y, longueur, largeur)
   ellipse(x, y, longueur, largeur)
   ellipse(x, y, longueur, largeur)
+  fill (red, green ,blue , blue)
  
 }
